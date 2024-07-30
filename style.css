@@ -1,0 +1,49 @@
+/* \\CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* \\ main */
+main{
+    display: flex;
+    max-width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.65), hsla(0, 0%, 0%, 0.65)), url(images/subway.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: rgb(41, 146, 109);
+    font-size: 2.7rem;
+    font-weight: bolder;
+    white-space: nowrap;
+}
+h2{
+    color: rgb(28, 195, 184);
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+button{
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.increments{
+    background-color: darkred;
+}
+.save{
+    background-color: greenyellow;
+    
+}
+#save-previous-entries{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
