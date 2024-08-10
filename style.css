@@ -44,6 +44,8 @@ button{
     
 }
 #save-previous-entries{
-    font-size: 1.3rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
+    color: seashell;
 }
